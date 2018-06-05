@@ -21,3 +21,15 @@ You can store a function in an array and call the array[0]
 Recursive Looping is looping without using for loops
 
 It's important to use a break condition to stop the loop from happening just like in forloops but in this case it's provided in a Function
+
+[Link](https://github.com/fupuchu/choose_your_own_adventure_js)
+
+```javascript
+function th() {
+  if (currentFloor >= 7) {
+    win();
+  } else {
+    pickDoor();
+  }
+}
+```
